@@ -6,7 +6,6 @@
     if (isset($_SESSION['USER_NAME']) && ($_SESSION['GROUP_ID'] == 1)) {
         include 'initial.php';
 
-        $do = (isset($_GET['do'])) ? $_GET['do'] : 'Manage';
 
         if ($do == 'Manage') { ?>
             <div class="container mt-5">
